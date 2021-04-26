@@ -1,0 +1,112 @@
+html,
+body {
+    font-family: Verdana;
+    font-size: 12px;
+    background-color: #008080;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: block;
+}
+#desktop-environment {
+    min-height: 100%;
+    position: relative;
+}
+#desktop {
+    padding: 10px;
+    color: #fff;
+}
+#start-bar {
+    background-color: #c0c0c0;
+    bottom: 0px;
+    left: 0;
+    position: absolute;
+    height: 25px !important;
+    width: 100%;
+    box-shadow: #fff 1px 1px inset;
+}
+#start-button {
+    padding: 2px;
+    content: url(../assets/img/passive.png);
+}
+#start-menu {
+    background-color: #c0c0c0;
+    width: 150px;
+    height: 310px;
+    position: absolute;
+    bottom: 2.5%;
+    left: 0.4%;
+    border-width: 2px;
+    border-style: outset;
+    display: none;
+}
+#start-menu-header {
+    width: 20%;
+    height: 99.7%;
+    background-color: #000080;
+}
+#start-menu-items {
+    position: inherit;
+    right: 5px;
+    top: 0px;
+    line-height: 2.4;
+}
+#notification {
+    box-shadow: rgba(0, 0, 0, 0.4) 1px 1px inset;
+    bottom: 1px;
+    right: 0px;
+    height: 90%;
+    width: 55%;
+    position: absolute;
+}
+#clock {
+    font-size: 14px;
+    right: 2px;
+    float: right;
+    margin-right: 2px;
+    margin-top: 3px;
+}
+.desktop-icons {
+    width: 100px;
+    text-align: center;
+    line-height: 1.3em;
+}
+.desktop-icon {
+    margin: auto;
+    padding: 14px;
+}
+#my-computer {
+    content: url(../assets/icons_mb/computer_explorer.ico);
+    width: 40px;
+    height: 40px;
+}
+#documents {
+    content: url(../assets/icons_mb/directory_open_file_mydocs.ico);
+    width: 45px;
+    height: 45px;
+}
+#network {
+    content: url(../assets/icons_mb/network_normal_two_pcs.ico);
+    width: 40px;
+    height: 40px;
+}
+#recycle-bin {
+    content: url(../assets/icons_mb/recycle_bin_empty.ico);
+    width: 40px;
+    height: 40px;
+}
+#internet-explorer {
+    content: url(../assets/icons_mb/msie2.ico);
+    width: 40px;
+    height: 40px;
+}
+#msn {
+    content: url(../assets/icons_mb/msn2.ico);
+    width: 40px;
+    height: 40px;
+}
+#briefcase {
+    content: url(../assets/icons_mb/briefcase.ico);
+    width: 40px;
+    height: 40px;
+}
